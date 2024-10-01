@@ -23,7 +23,7 @@ function generateResume() {
     const ski2200 = document.getElementById('ski2').value;
     const ski3200 = document.getElementById('ski3').value;
     const div2 = document.getElementById("div2");
-    const shareableLink = `resume-generated.html?name=${encodeURIComponent(name200)}&age=${encodeURIComponent(age200)}&email=${encodeURIComponent(email200)}&edu=${encodeURIComponent(edu200)}&exp=${encodeURIComponent(exp200)}&ski1=${encodeURIComponent(ski200)}&ski2=${encodeURIComponent(ski2200)}&ski3=${encodeURIComponent(ski3200)}`;
+    const shareableLink = `HTML/resume-generated.html?name=${encodeURIComponent(name200)}&age=${encodeURIComponent(age200)}&email=${encodeURIComponent(email200)}&edu=${encodeURIComponent(edu200)}&exp=${encodeURIComponent(exp200)}&ski1=${encodeURIComponent(ski200)}&ski2=${encodeURIComponent(ski2200)}&ski3=${encodeURIComponent(ski3200)}`;
     div2.innerHTML = `
         <p>Your shareable resume link: <a href="${shareableLink}" target="_blank">${shareableLink}</a></p>
     `;
